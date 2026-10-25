@@ -8,7 +8,7 @@ const Header: React.FC = () => {
             <h1>Want to get Voi?</h1>
             <nav>
                 <ul>
-                    <li><a href="https://medium.com/@voifoundation/staking-program-how-to-guide-382ea5085dab">DEX Guide</a></li>
+                    <li><a href="https://voirewards.com/">DEX Guide</a></li>
                 </ul>
             </nav>
         </header>
