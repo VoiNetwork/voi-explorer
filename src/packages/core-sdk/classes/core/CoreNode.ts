@@ -94,7 +94,7 @@ export class CoreNode {
         const consensusVersion = this.getConsensusVersion();
         const latestConsensusVersion = this.getLatestConsensusVersion();
 
-        return consensusVersion === latestConsensusVersion;
+        return consensusVersion === latestConsensusVersion || this.status["next-version-supported"];
     }
 
     sandboxConsensusValidation(): {valid: boolean, message: string} {
